@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Zdravila</string>
+    <!--string name="app_name">Alarm1</-string>-->
+
+    <string-array name="repeating">
+        <item>Once</item>
+        <item>Daily</item>
+        <item>Weekly</item>
+    </string-array>
+    <!--<string name="app_name">Countries</string>-->
+    <string name="image_description">Image from web</string>
+
+    <string-array name="regions">
+        <item>Africa</item>
+        <item>Americas</item>
+        <item>Asia</item>
+        <item>Europe</item>
+        <item>Oceania</item>
+    </string-array>
+
+    <string name="namelabel">"Name : "</string>
+    <string name="manulabel">"Manufacturer : "</string>
+    <string name="namelatlabel">"NameLat: "</string>
+    <string name="instlabel">"Instuction : "</string>
+    <string name="descrlabel">"Description : "</string>
+</resources>
