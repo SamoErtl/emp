@@ -1,0 +1,40 @@
+package vaje.si.fri.emp.zdravila;
+
+import android.content.Intent;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.view.View;
+
+public class MainActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+    }
+
+    public void onClickPogledZdravil(View v){
+        Intent intent = new Intent(MainActivity.this,
+                PregledZdravil.class);
+        startActivity(intent);
+    }
+    public void onClickAlarmActivity(View v){
+        Intent intent = new Intent(MainActivity.this,
+                AlarmActivity.class);
+       startActivity(intent);
+    }
+
+    public void onClickIskane(View v){
+        Intent intent = new Intent(MainActivity.this,
+                PogledZdravil.class);
+        startActivity(intent);
+    }
+    public void onClickComper(View v){
+        Intent intent = new Intent(MainActivity.this,
+                ComperActivity.class);
+        startActivity(intent);
+    }
+
+
+
+}

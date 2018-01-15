@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="vaje.si.fri.emp.zdravila.MainActivity">
+
+    <LinearLayout
+        android:layout_width="381dp"
+        android:layout_height="512dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="2dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/bZdravilaPogled"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="onClickPogledZdravil"
+                android:text="Poglej Zdravila" />
+
+            <Button
+                android:id="@+id/bPregled"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="onClickIskane"
+                android:text="Iskanje Zdravil" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bAlarm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nastavi Alarm"
+            android:onClick="onClickAlarmActivity" />
+
+        <Button
+            android:id="@+id/bComper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Primerjalnik"
+            android:onClick="onClickComper"/>
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

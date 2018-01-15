@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Zdravila</string>
+    <!--string name="app_name">Alarm1</-string>-->
+
+    <string-array name="repeating">
+        <item>Once</item>
+        <item>Daily</item>
+        <item>Weekly</item>
+    </string-array>
+    <!--<string name="app_name">Countries</string>-->
+    <string-array name="meds">
+        <item>Lekadol</item>
+        <item>Lekadol plus C</item>
+        <item>Diverin</item>
+        <item>Angal</item>
+        <item>Operil</item>
+        <item>Fluimukan</item>
+        <item>Linex</item>
+        <item>Neopersen</item>
+    </string-array>
+
+
+</resources>
